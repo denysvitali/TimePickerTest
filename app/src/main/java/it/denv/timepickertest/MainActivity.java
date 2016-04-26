@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button set1 = (Button) findViewById(R.id.button);
         Button set2 = (Button) findViewById(R.id.button2);
 
-        set1.setOnClickListener(new View.OnClickListener() {
+        set2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 timePicker.setHour(12);
